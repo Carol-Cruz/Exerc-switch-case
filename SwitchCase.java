@@ -14,11 +14,11 @@ public class SwitchCase {
 		
 		System.out.println("Digite o código do produto");
 		
-		 codigo = captura.nextInt();
+		codigo = captura.nextInt();
 		 
-		if (codigo > 6) {
+         if (codigo > 6) {
 			
-        System.out.println("Opção inválida");
+                System.out.println("Opção inválida");
         
 		}
 		else {
@@ -30,25 +30,25 @@ public class SwitchCase {
 		
 		switch (codigo) {
 
-		case 1:
+	case 1:
 			
-			valorTotal = quantidade * 10;
+                 valorTotal = quantidade * 10;
 			
-			System.out.printf("O valor total é igual a : '%.2f' reais", valorTotal);
+		  System.out.printf("O valor total é igual a : '%.2f' reais", valorTotal);
 			
-			System.out.println(" \n O Produto é um Cachorro Quente");
+		  System.out.println(" \n O Produto é um Cachorro Quente");
 			break;
 		
         case 2:
 			
-			valorTotal = quantidade * 15;
+		valorTotal = quantidade * 15;
 			
-			System.out.printf("O valor total é igual a: '%.2f' reais", valorTotal);
+		System.out.printf("O valor total é igual a: '%.2f' reais", valorTotal);
 			
-			System.out.println(" \n O Produto é um X- Salada");
-			break;
+		System.out.println(" \n O Produto é um X- Salada");
+		break;
 			
-		case 3:
+        case 3:
 
 	        valorTotal=quantidade*18;
 
@@ -59,30 +59,31 @@ public class SwitchCase {
 	        
         case 4:
 
-            valorTotal=quantidade*12;
+                valorTotal=quantidade*12;
 
-            System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
+                 System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
 
 	        System.out.println(" \n O Produto é um Bauru");
 	        break;
 	        
         case 5:
 
-            valorTotal=quantidade*8;
+               valorTotal=quantidade*8;
 
-            System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
+                System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
 
-            System.out.println(" \n O Produto é um Refrigerante");
-            break;
+               System.out.println(" \n O Produto é um Refrigerante");
+                 break;
             
         case 6:
 
-            valorTotal=quantidade*13;
+                valorTotal=quantidade*13;
 
-            System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
+	         System.out.printf("O valor total é igual a : '%.2f' reais",valorTotal);
 
-            System.out.println(" \n O Produto é um Suco de laranja");
-            break;
+                  System.out.println(" \n O Produto é um Suco de laranja");
+                 break;
+           
 		}
 	captura.close();
 	}
